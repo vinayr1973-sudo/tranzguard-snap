@@ -1,0 +1,41 @@
+{
+  "name": "@tranzguard/snap",
+  "version": "1.0.0",
+  "description": "TranzGuard Shield — real-time wallet address verification before every MetaMask transaction.",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist/",
+    "images/",
+    "snap.manifest.json"
+  ],
+  "scripts": {
+    "build": "mm-snap build",
+    "serve": "mm-snap serve",
+    "watch": "mm-snap watch",
+    "start": "mm-snap watch"
+  },
+  "keywords": [
+    "metamask",
+    "snap",
+    "crypto",
+    "security",
+    "fraud",
+    "address-verification"
+  ],
+  "author": "TranzGuard <api@tranzguard.com>",
+  "license": "MIT",
+  "homepage": "https://tranzguard.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinayr1973-sudo/tranzguard-snap.git"
+  },
+  "dependencies": {
+    "@metamask/snaps-sdk": "^6.7.0"
+  },
+  "devDependencies": {
+    "@metamask/snaps-cli": "^6.5.0",
+    "@types/node": "^20.0.0",
+    "prettier": "^3.8.3",
+    "typescript": "^5.4.0"
+  }
+}
