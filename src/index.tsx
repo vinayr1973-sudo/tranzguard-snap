@@ -4,7 +4,7 @@ import type {
 } from '@metamask/snaps-sdk'
 import { Box, Heading, Text, Bold, Divider } from '@metamask/snaps-sdk/jsx'
 
-const API = 'https://tranzguard.com/api/v1/verify-address'
+const API = 'https://tranzguard.com/api/verify-address'
 
 function detectChain(chainId: string): string {
   // CAIP-2 format from MetaMask: "eip155:1" → ethereum, etc.
