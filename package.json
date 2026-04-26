@@ -1,6 +1,6 @@
 {
   "name": "tranzguard-shield-snap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "TranzGuard Shield — real-time wallet address verification before every MetaMask transaction.",
   "main": "dist/bundle.js",
   "files": [
