@@ -7,7 +7,7 @@
     "url": "git+https://github.com/vinayr1973-sudo/tranzguard-snap.git"
   },
   "source": {
-    "shasum": "PdvEjwm1gSn+WJVmv2/cA6bL9nBE8TRgkYKcxs1DJs8=",
+    "shasum": "y0Iwvo5WMUJiCedQlGq9fYE4jdCOlvsIfm0v2B2h+9A=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
