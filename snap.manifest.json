@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TranzGuard Shield — real-time address verification before every transaction",
   "proposedName": "TranzGuard Shield",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "git+https://github.com/vinayr1973-sudo/tranzguard-snap.git"
   },
   "source": {
-    "shasum": "tctTs3aCuIdPE+cBCz1DPue528aYB0EeADABbZUbRA8=",
+    "shasum": "Leo81wtoj/tnDM+bqzHj0L7BbbiGEC2OUQh1H06HQBU=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
