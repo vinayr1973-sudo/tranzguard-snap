@@ -49,10 +49,16 @@ export const onTransaction: OnTransactionHandler = async ({
     }
 
     const chain = detectChain(chainId)
+    // base64-encode address — Cloudflare WAF on the production endpoint
+    // flags raw hex addresses in request bodies. Server accepts either.
+    const addressB64 =
+      typeof btoa === 'function'
+        ? btoa(toAddress)
+        : Buffer.from(toAddress, 'utf8').toString('base64')
     const res = await fetch(API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ address: toAddress, chain }),
+      body: JSON.stringify({ addressB64, chain }),
     })
 
     if (!res.ok) {
