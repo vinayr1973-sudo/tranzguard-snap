@@ -7,7 +7,7 @@
     "url": "git+https://github.com/vinayr1973-sudo/tranzguard-snap.git"
   },
   "source": {
-    "shasum": "vZeDEK/OtBJtcD33BDFs7NbhJsyE+3cezIRB0i76v48=",
+    "shasum": "R0dXTqiGv3fMw61ACE0swAiAlQlwvFmABRRXAEBQih4=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -16,6 +16,9 @@
         "registry": "https://registry.npmjs.org/"
       }
     }
+  },
+  "initialConnections": {
+    "https://tranzguard.com": {}
   },
   "initialPermissions": {
     "endowment:transaction-insight": {
